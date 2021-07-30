@@ -4,7 +4,7 @@ Report Shoryuken metrics to StatsD or to DogStatsD
 
 ## Configuration
 
-Using standard StatsD (and the [`statsd-ruby` gem](https://rubygems.org/gems/statsd-ruby/versions/1.4.0)):
+Using standard StatsD (and the [`statsd-ruby` gem](https://rubygems.org/gems/statsd-ruby)):
 
 ```ruby
 Shoryuken.configure_server do |config|
@@ -14,7 +14,7 @@ Shoryuken.configure_server do |config|
 end
 ```
 
-For use with Datadog and DogStatsD (and the [`dogstatsd-ruby` gem](https://rubygems.org/gems/dogstatsd-ruby/versions/1.5.0)):
+For use with Datadog and DogStatsD (and the [`dogstatsd-ruby` gem](https://rubygems.org/gems/dogstatsd-ruby)):
 
 ```ruby
 require 'datadog/statsd'
